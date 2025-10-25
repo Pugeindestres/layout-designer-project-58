@@ -1,0 +1,124 @@
+/* Базовые настройки */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+    background-color: #f5f4f0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Универсальный класс для фона */
+.bg-pattern {
+    position: relative;
+    background-color: #fff;
+}
+
+.bg-pattern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+/* Шапка */
+.header {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Заголовок */
+.header-title {
+    font-family: 'Neucha', cursive;
+    font-size: 72px;
+    line-height: 1.2;
+    margin-bottom: 185px;
+}
+
+.title-primary {
+    display: block;
+    color: #2A2626;
+}
+
+.title-secondary {
+    display: block;
+    color: #fe8a02; /* Оранжевый цвет для "в программировании" */
+}
+
+/* Изображение */
+.header-image {
+    position: absolute;
+    top: 55px;
+    right: -270px;
+    height: 525px;
+    width: auto;
+    z-index: 2;
+    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.1));
+}
+
+/* Текстовые блоки */
+.header-text {
+    position: relative;
+    z-index: 1;
+}
+
+.text-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.text-column {
+    flex: 1;
+}
+
+.text-column p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.text-column p:last-child {
+    margin-bottom: 0;
+}
+
+/* Кнопка */
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fe8a02;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #ea7f00;
+}
