@@ -122,3 +122,48 @@ body {
 .button:hover {
     background-color: #ea7f00;
 }
+
+.video-section {
+    position: relative;
+    padding: 100px 0 200px 0; 
+    background-color: #f5f4f0;
+}
+
+.video-content {
+    text-align: center;
+}
+
+.video-title {
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+    line-height: 1.2;
+    color: #2A2626;
+    margin-bottom: 30px;
+}
+
+.video-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2A2626;
+    margin-bottom: 40px;
+}
+
+/* Ссылка с изображением */
+.video-link {
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+/* Изображение-превью */
+.video-thumbnail {
+    width: 919px;
+    height: 517px;
+    object-fit: cover;
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    
+    /* Позиционирование для наложения на следующую секцию */
+    position: relative;
+    z-index: 2;
+    margin-bottom: -100px; /* "Вылет" 100px + компенсация отступов */
+}
