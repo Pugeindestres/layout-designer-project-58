@@ -2,21 +2,21 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Neucha';
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/Neucha-Regular.woff2') format('woff2');
+  src: url('../fonts/Neucha-Regular.woff2') format('woff2');
 }
 
 :root {
@@ -57,7 +57,6 @@ img {
   padding: 0 15px;
 }
 
-/* helpers */
 .d-block { display: block; }
 .text-center { text-align: center; }
 .text-left { text-align: left; }
@@ -104,7 +103,6 @@ img {
   align-items: center;
 }
 
-/* header */
 .header-content {
   position: relative;
   padding: 100px 0;
@@ -146,7 +144,6 @@ img {
   background: var(--main-hover);
 }
 
-/* section */
 .section {
   padding: 100px 0;
   position: relative;
@@ -162,7 +159,6 @@ img {
   text-align: center;
 }
 
-/* video */
 .video-desc {
   margin: 0 0 30px;
 }
@@ -177,7 +173,6 @@ img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-/* navigation */
 .nav-grid {
   display: flex;
   flex-wrap: wrap;
@@ -242,7 +237,6 @@ img {
   margin: 0 0 10px;
 }
 
-/* bias sections */
 .bias-tag {
   font-family: 'Neucha', cursive;
   font-size: 24px;
@@ -267,7 +261,6 @@ img {
   text-transform: uppercase;
 }
 
-/* footer */
 .subscribe {
   padding: 55px;
   margin-top: 60px;
