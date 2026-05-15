@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <header class="bg-light bg-pattern overflow-hidden">
+  <header class="header bg-pattern bg-light">
     <div class="container">
       <div class="header-content">
         <h1 class="header-title">
@@ -16,16 +16,14 @@
           <span class="clr-dark">в программировании</span>
         </h1>
         <img class="header-img" src="images/main.png" alt="Человек с ноутбуком">
-        <div class="header-text">
-          <div class="row">
-            <div class="col">
-              <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
-            </div>
-            <div class="col">
-              <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
-              <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-              <a href="#navigation" class="btn">подробнее</a>
-            </div>
+        <div class="header-text row">
+          <div class="col">
+            <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+          </div>
+          <div class="col">
+            <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
+            <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
+            <a href="#navigation" class="btn">подробнее</a>
           </div>
         </div>
       </div>
@@ -40,13 +38,13 @@
           <span class="clr-main">когнитивные искажения?</span>
         </h2>
         <p class="video-desc">Что такое когнитивные искажения. Petrovna Channel</p>
-        <iframe class="video-frame" width="919" height="569"
-          src="https://www.youtube.com/embed/jie9AizBqss"
-          allowfullscreen></iframe>
+        <a href="https://youtu.be/jie9AizBqss" target="_blank" rel="noopener noreferrer">
+          <img id="preview-image" class="video-frame shadow" src="images/preview.png" alt="Что такое когнитивные искажения - Petrovna Channel" width="919" height="517">
+        </a>
       </div>
     </section>
 
-    <nav id="navigation" class="bg-dark pt-100">
+    <nav id="navigation" class="bg-dark">
       <div class="container">
         <ul class="nav-grid">
           <li class="nav-card nav-card-title">
@@ -56,35 +54,35 @@
             </h2>
           </li>
           <li class="nav-card bg-light">
-            <a href="#ikea" class="nav-link">
+            <a href="#ikea-effect" class="nav-link">
               <span class="nav-num">1</span>
               <h3 class="nav-card-title-text clr-main">Эффект ИКЕА</h3>
               <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
             </a>
           </li>
           <li class="nav-card bg-light">
-            <a href="#premature" class="nav-link">
+            <a href="#premature-optimization" class="nav-link">
               <span class="nav-num">2</span>
               <h3 class="nav-card-title-text clr-main">Преждевременная оптимизация</h3>
               <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
             </a>
           </li>
           <li class="nav-card bg-light">
-            <a href="#novelty" class="nav-link">
+            <a href="#distortion-of-novelty" class="nav-link">
               <span class="nav-num">3</span>
               <h3 class="nav-card-title-text clr-main">Искажение новизны</h3>
               <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
             </a>
           </li>
           <li class="nav-card bg-light">
-            <a href="#hyperbolic" class="nav-link">
+            <a href="#hyperbolic-depreciation" class="nav-link">
               <span class="nav-num">4</span>
               <h3 class="nav-card-title-text clr-main">Гиперболическое обесценивание</h3>
               <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
             </a>
           </li>
           <li class="nav-card bg-light">
-            <a href="#planning" class="nav-link">
+            <a href="#errors-in-planning" class="nav-link">
               <span class="nav-num">5</span>
               <h3 class="nav-card-title-text clr-main">Ошибка планирования</h3>
               <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
@@ -94,7 +92,7 @@
       </div>
     </nav>
 
-    <section id="ikea" class="section bg-light bg-pattern">
+    <section id="ikea-effect" class="section bg-light bg-pattern">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -118,7 +116,7 @@
       </div>
     </section>
 
-    <section id="premature" class="section bg-brown bg-pattern clr-white">
+    <section id="premature-optimization" class="section bg-brown bg-pattern clr-white">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -142,7 +140,7 @@
       </div>
     </section>
 
-    <section id="novelty" class="section bg-light bg-pattern">
+    <section id="distortion-of-novelty" class="section bg-light bg-pattern">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -166,7 +164,7 @@
       </div>
     </section>
 
-    <section id="hyperbolic" class="section bg-brown bg-pattern clr-white">
+    <section id="hyperbolic-depreciation" class="section bg-brown bg-pattern clr-white">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -190,7 +188,7 @@
       </div>
     </section>
 
-    <section id="planning" class="section bg-light bg-pattern">
+    <section id="errors-in-planning" class="section bg-light bg-pattern">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -216,7 +214,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="subscribe bg-dark clr-white">
         <div class="row v-center">
