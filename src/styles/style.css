@@ -11,11 +11,17 @@
 }
 
 @font-face {
-  font-family: 'Neucha';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Neucha-Latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -23,34 +29,6 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/Neucha-Regular.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400 700;
-  font-stretch: 100%;
-  src: url('../fonts/OpenSans-Latin.woff2') format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400 700;
-  font-stretch: 100%;
-  src: url('../fonts/OpenSans.woff2') format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400 700;
-  font-stretch: 100%;
-  src: url('../fonts/OpenSans-Ext.woff2') format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 *, *::before, *::after {
@@ -63,9 +41,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: var(--darker);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -197,6 +172,7 @@ img {
   display: block;
   margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  margin-bottom: -100px;
 }
 
 /* navigation */
@@ -357,12 +333,6 @@ img {
   margin: 9px 0 0;
 }
 
-#ikea-effect { padding-bottom: 109px; }
-#premature-optimization { padding-bottom: 107px; }
-#distortion-of-novelty { padding-bottom: 108px; }
-#hyperbolic-depreciation { padding-bottom: 109px; }
-#errors-in-planning { padding-bottom: 124px; }
-
 .footer-info {
   font-style: normal;
   font-size: 14px;
@@ -370,4 +340,8 @@ img {
   padding: 60px 0 178px;
 }
 
-
+#ikea-effect { padding-bottom: 109px; }
+#premature-optimization { padding-bottom: 107px; }
+#distortion-of-novelty { padding-bottom: 108px; }
+#hyperbolic-depreciation { padding-bottom: 109px; }
+#errors-in-planning { padding-bottom: 124px; }
