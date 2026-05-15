@@ -18,8 +18,11 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.6;
   color: var(--darker);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -160,7 +163,7 @@ img {
 }
 
 .nav-inner {
-  padding: 100px 0;
+  padding: 100px 0 132px;
 }
 
 .nav-grid {
@@ -310,6 +313,12 @@ img {
   font-size: 12px;
   margin: 9px 0 0;
 }
+
+#ikea-effect { padding-bottom: 109px; }
+#premature-optimization { padding-bottom: 107px; }
+#distortion-of-novelty { padding-bottom: 108px; }
+#hyperbolic-depreciation { padding-bottom: 109px; }
+#errors-in-planning { padding-bottom: 124px; }
 
 .footer-info {
   font-style: normal;
