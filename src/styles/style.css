@@ -96,7 +96,7 @@ img {
   font-weight: 400;
   font-size: 72px;
   line-height: 1.2;
-  margin: 0 0 153px;
+  margin: 0 0 169px;
 }
 
 .header-img {
@@ -160,7 +160,7 @@ img {
 }
 
 .nav-inner {
-  padding: 100px 0;
+  padding: 100px 0 132px;
 }
 
 .nav-grid {
@@ -315,5 +315,11 @@ img {
   font-style: normal;
   font-size: 14px;
   text-align: center;
-  padding: 60px 0 256px;
+  padding: 60px 0 178px;
 }
+
+#ikea-effect { padding-bottom: 109px; }
+#premature-optimization { padding-bottom: 107px; }
+#distortion-of-novelty { padding-bottom: 108px; }
+#hyperbolic-depreciation { padding-bottom: 109px; }
+#errors-in-planning { padding-bottom: 124px; }
