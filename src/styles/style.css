@@ -18,7 +18,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--darker);
 }
 
@@ -160,7 +160,7 @@ img {
 }
 
 .nav-inner {
-  padding: 100px 0 132px;
+  padding: 100px 0;
 }
 
 .nav-grid {
@@ -318,8 +318,4 @@ img {
   padding: 60px 0 178px;
 }
 
-#ikea-effect { padding-bottom: 109px; }
-#premature-optimization { padding-bottom: 107px; }
-#distortion-of-novelty { padding-bottom: 108px; }
-#hyperbolic-depreciation { padding-bottom: 109px; }
-#errors-in-planning { padding-bottom: 124px; }
+
